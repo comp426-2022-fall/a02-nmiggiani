@@ -46,10 +46,10 @@ if (args.t) {
 timezone.replace("/", "%2");
 
 if(!latitude) {
-	console.log("Latitude in range");
+	console.log("Latitude must be in range");
 	process.exit(0);
 } else if (!longitude) {
-	console.log("Longitude in range");
+	console.log("Longitude must be in range");
 	process.exit(0);
 }
 
