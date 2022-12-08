@@ -1,12 +1,10 @@
 #!/usr/bin/env node
 
-
 import fetch from "node-fetch";
 import minimist from "minimist";
 import moment from "moment-timezone";
 
 const args = minimist(process.argv.slice(2));
-
 
 if (args.h) {
   console.log(`
