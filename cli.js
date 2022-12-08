@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 import fetch from "node-fetch";
 import minimist from "minimist";
 import moment from "moment-timezone";
@@ -16,6 +17,7 @@ if (args.h) {
   -d 0-6        Day to retrieve weather: 0 is today; defaults to 1.
   -j            Echo pretty JSON from open-meteo API and exit.
 `)
+
 process.exitCode = 0;
 }
 
@@ -74,4 +76,5 @@ if (days == 0) {
 } else {
     console.log("tomorrow.")
 }
+
 process.exit(0);
