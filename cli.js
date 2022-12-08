@@ -65,7 +65,6 @@ if (args.j) {
 
 const days = args.d;
 
-
 if (data.daily.precipitation_hours[days] == 0) {
 	console.log("You will not need your galoshes")
 } else {
