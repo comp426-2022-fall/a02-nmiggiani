@@ -25,7 +25,6 @@ process.exitCode = 0;
 // timezone
 var timezone = moment.tz.guess();
 
-
 // latitude and longitude
 var latitude;
 var longitude;
